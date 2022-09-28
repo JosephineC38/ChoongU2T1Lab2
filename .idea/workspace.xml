@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a32117f-da3f-43f4-9cf1-10d0f336e8ac" name="Changes" comment="Added answers">
-      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RectangleRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatBotRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatBotRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +36,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RectangleRunner">
+  <component name="RunManager" selected="Application.ChatBotRunner">
+    <configuration name="ChatBotRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatBotRunner" />
+      <module name="ChoongU2T1Lab2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CircleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircleRunner" />
       <module name="ChoongU2T1Lab2" />
@@ -54,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatBotRunner" />
         <item itemvalue="Application.RectangleRunner" />
         <item itemvalue="Application.CircleRunner" />
       </list>
@@ -108,6 +121,10 @@
           <url>file://$PROJECT_DIR$/src/Circle.java</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ChatBotRunner.java</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CircleRunner.java</url>
           <line>1</line>
@@ -116,6 +133,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ChatBotRunner.java</url>
+          <line>1</line>
+          <properties class="ChatBotRunner" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

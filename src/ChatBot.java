@@ -44,5 +44,13 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    public String afternoon(){
+        return "Is it afternoon? That's the best part of my day.";
+    }
+
+    public void aNumber(int number){
+        System.out.println(number + "? What a cool number!");
+    }
 }
 
